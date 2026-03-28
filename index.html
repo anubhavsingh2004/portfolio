@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anubhav Singh | Full-Stack Developer & DevOps Engineer</title>
+    <meta name="description" content="Portfolio of Anubhav Singh - Final-year IT student, Full-Stack Developer, and DevOps enthusiast specializing in AI/ML and Cloud Technologies.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo">Anubhav<span class="accent">.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="btn-small">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <p class="hero-greeting">Hi, my name is</p>
+            <h1 class="hero-name">Anubhav Singh.</h1>
+            <h2 class="hero-subtitle">I build smart, scalable solutions.</h2>
+            <p class="hero-desc">
+                I'm a final-year IT engineering student and Full-Stack Developer with a passion for 
+                <span class="highlight">DevOps</span> and <span class="highlight">AI/ML</span>. 
+                Currently creating accessible tech at <span class="highlight">A. P. Shah Institute of Technology</span>.
+            </p>
+            <div class="hero-cta">
+                <a href="#work" class="btn-primary">Check out my work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="number">01.</span> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Anubhav, a developer based in India who loves building things that live on the internet. 
+                        My journey started with simple scripts and has evolved into engineering robust web applications and 
+                        exploring the depths of Machine Learning.
+                    </p>
+                    <p>
+                        I've recently wrapped up an internship as a <span class="highlight">DevOps Engineer Intern</span> at 
+                        RigelX Infotech, where I optimized cloud infrastructure and CI/CD pipelines.
+                        I'm also the Technical Club Ambassador at my college, mentoring 100+ students in DevOps practices.
+                    </p>
+                    <p>Here are a few technologies I've been working with recently:</p>
+                    <ul class="skills-list">
+                        <li>Python & Java</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js & Node.js</li>
+                        <li>Flask</li>
+                        <li>Docker & AWS</li>
+                        <li>MongoDB & MySQL</li>
+                    </ul>
+                </div>
+                <div class="about-img-wrapper">
+                    <!-- Placeholder for profile image, using a gradient box for now if image isn't available -->
+                    <div class="about-img">
+                        <div class="img-overlay"></div>
+                        <img src="https://via.placeholder.com/300x300/112240/64ffda?text=AS" alt="Anubhav Singh Profile">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="number">02.</span> Where I've Worked</h2>
+            
+            <div class="experience-tabs">
+                <div class="tabs-list">
+                    <button class="tab-btn active" data-target="#exp-1">RigelX Infotech</button>
+                    <button class="tab-btn" data-target="#exp-2">DevOps Club</button>
+                </div>
+                
+                <div class="tab-content basic-fade-in" id="exp-1">
+                    <h3 class="exp-role">DevOps Engineer Intern <span class="company">@ RigelX Infotech</span></h3>
+                    <p class="exp-date">June 2025 - July 2025</p>
+                    <ul class="exp-details">
+                        <li>Designed and implemented infrastructure as code (IaC) using Terraform for scalable AWS cloud resources.</li>
+                        <li>Developed CI/CD pipelines using AWS CodePipeline and CodeBuild to automate deployment triggers.</li>
+                        <li>Streamlined backend workflows for a Warehouse Management System using Lambda functions.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="exp-2" style="display: none;">
+                    <h3 class="exp-role">Technical Club Ambassador & Mentor <span class="company">@ APSIT</span></h3>
+                    <p class="exp-date">July 2024 - Present</p>
+                    <ul class="exp-details">
+                        <li>Managed technical sessions on Docker, Git, and GitHub for 100+ students per session.</li>
+                        <li>Handled content planning and post-session engagement to promote DevOps awareness across campus.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="number">03.</span> Some Things I've Built</h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="folder-icon">
+                            <i class="fa-regular fa-folder"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" aria-label="External Link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">CultivateConnect</h3>
+                    <p class="project-desc">
+                        A Smart Agriculture Assistant integrating machine learning to recommend crops and forecast yields based on past data. 
+                        Includes user login, profile management, and interactive visualizations.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Scikit-learn</li>
+                        <li>React.js</li>
+                        <li>Chart.js</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="folder-icon">
+                            <i class="fa-regular fa-folder"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">KrushiPal</h3>
+                    <p class="project-desc">
+                        A Farmer-to-Consumer E-Commerce Platform. Built a robust RESTful API in Express.js with a scalable MongoDB schema
+                        for secure authentication and smooth experience.
+                    </p>
+                    <ul class="project-tech">
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>MongoDB</li>
+                        <li>Tailwind</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="folder-icon">
+                            <i class="fa-regular fa-folder"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Hangman Game</h3>
+                    <p class="project-desc">
+                        An interactive educational game using Python and PyGame. Integrates subject selection, hints, and progress
+                        tracking to gamify learning of DBMS concepts.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>PyGame</li>
+                        <li>EdTech</li>
+                    </ul>
+                </div>
+
+                 <!-- Project 4 -->
+                 <div class="project-card">
+                    <div class="project-header">
+                        <div class="folder-icon">
+                            <i class="fa-regular fa-folder"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Book Rec. System</h3>
+                    <p class="project-desc">
+                        Content-based filtering recommendation system using TF-IDF and cosine similarity. Features a clean web interface
+                        for personalized book suggestions.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>Scikit-learn</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <h2 class="section-title center-title"><span class="number">04.</span> What's Next?</h2>
+            <h2 class="large-heading">Get In Touch</h2>
+            <p class="contact-desc">
+                I'm currently looking for new opportunities in Software Development and DevOps. 
+                Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <a href="mailto:anubhav892004@gmail.com" class="btn-primary big-btn">Say Hello</a>
+            
+            <div class="social-links-footer">
+                <a href="https://github.com/anubhav077" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/anubhavsingh2004" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:anubhav892004@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Built by Anubhav Singh &copy; <span id="year">2025</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
