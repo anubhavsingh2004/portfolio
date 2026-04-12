@@ -226,13 +226,6 @@ header nav {
     margin-bottom: 50px;
 }
 
-.hero-cta {
-    display: flex;
-    gap: 14px;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 /* About Section */
 .about-grid {
     display: grid;
@@ -534,10 +527,6 @@ header nav {
 
     .about-grid {
         display: block;
-    }
-
-    .hero-cta {
-        gap: 10px;
     }
 
     .about-img-wrapper {
