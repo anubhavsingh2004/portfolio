@@ -350,6 +350,42 @@ header nav {
     margin-bottom: 20px;
 }
 
+.exp-summary {
+    margin-bottom: 16px;
+    max-width: 72ch;
+}
+
+.exp-subtitle {
+    font-size: 16px;
+    margin: 20px 0 12px;
+    color: var(--text-primary);
+}
+
+.exp-tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.exp-tech-stack li {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    background-color: rgba(100, 255, 218, 0.08);
+    border: 1px solid rgba(100, 255, 218, 0.25);
+    border-radius: 999px;
+    padding: 6px 10px;
+    line-height: 1.2;
+}
+
+.impact-statement {
+    margin-top: 4px;
+    font-size: 14px;
+    color: var(--text-primary);
+    font-style: italic;
+}
+
 .exp-details li {
     position: relative;
     padding-left: 20px;
